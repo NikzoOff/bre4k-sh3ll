@@ -4,6 +4,17 @@ By N1kz0.
 
 This is my personal [Hyprland](https://github.com/hyprwm/Hyprland) configuration, designed with a **Breakcore-inspired aesthetic** and focused on minimal, terminal-based visuals.
 
+---
+
+### **IMPORTANT**
+Before installing, make sure to edit the config as i use the french keyboard layout.
+
+Go to '$HOME/.config/hypr/hyprland.conf' and scroll down to "INPUTS", change KB layout to your desired one. You will also need to change the "Workspaces and Move to workspaces" input in '$HOME/.config/hypr/keybindings.conf'.
+
+Be sure to also check if every config files have the right usernames and locations. Also run waypaper or use 'waypaper --random' to use a random image in your '$HOME/Pictures/wallpapers/' directory.
+
+---
+
 It includes:
 
 - [Oh My Zsh](https://ohmyz.sh/) (might needed to install it yourself. Double check after install)
@@ -50,6 +61,12 @@ Note that every packages used have been tested and checked before installation.
 git clone https://github.com/NikzoOff/bre4k-sh3ll
 
 ```
+---
+
+Things left to do at the time:
+- [] Make the Arch-based installation script
+- [] Make the "Universal" installation script (just copying and placing files)
+- [] Get GTK themes to work with pywal (help is greatly appreciated)
 
 ---
 
@@ -57,7 +74,7 @@ git clone https://github.com/NikzoOff/bre4k-sh3ll
 
 If you have any question, feel free to open a pull request or "Issues". 
 Im also active on discord and reddit. Dont be afraid to DM me.
-Discord: nikz0_
-Reddit: Nikz0_
+- Discord: nikz0_
+- Reddit: Nikz0_
 
 I might do other hyprland and maybe other TWM rices. Stay tuned.
