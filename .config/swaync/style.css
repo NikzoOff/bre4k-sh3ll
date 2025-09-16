@@ -1,9 +1,9 @@
 @import "/home/nikzo/.cache/wal/colors-waybar.css";
 
-@define-color cc-bg alpha(@background,0.85);
+@define-color cc-bg @background;
 @define-color noti-border-color @color1;
 @define-color noti-bg @background;
-@define-color noti-bg-darker alpha(@color1,0.3);
+@define-color noti-bg-darker @color1;
 @define-color noti-bg-hover @background;
 @define-color noti-bg-focus #1b1b1b;
 @define-color noti-close-bg @color1;
@@ -24,7 +24,7 @@
 
 .control-center .notification-row:focus,
 .control-center .notification-row:hover {
-  opacity: 0.9;
+  opacity: 1;
   background: @background;
 }
 
