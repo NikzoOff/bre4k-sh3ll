@@ -9,9 +9,9 @@ This is my personal [Hyprland](https://github.com/hyprwm/Hyprland) configuration
 ### **IMPORTANT**
 Before installing, make sure to edit the config as i use the french keyboard layout.
 
-Go to '$HOME/.config/hypr/hyprland.conf' and scroll down to "INPUTS", change KB layout to your desired one. You will also need to change the "Workspaces and Move to workspaces" input in '$HOME/.config/hypr/keybindings.conf'.
+Go to `$HOME/.config/hypr/hyprland.conf` and scroll down to "INPUTS", change KB layout to your desired one. You will also need to change the "Workspaces and Move to workspaces" input in `$HOME/.config/hypr/keybindings.conf`.
 
-Be sure to also check if every config files have the right usernames and locations. Also run waypaper or use 'waypaper --random' to use a random image in your '$HOME/Pictures/wallpapers/' directory.
+Be sure to also check if every config files have the right usernames and locations. Also run waypaper or use `waypaper --random` to use a random image in your `$HOME/Pictures/wallpapers/` directory.
 
 ---
 
