@@ -11,7 +11,7 @@ Before installing, make sure to edit the config as i use the french keyboard lay
 
 Go to `$HOME/.config/hypr/hyprland.conf` and scroll down to "INPUTS", change KB layout to your desired one. You will also need to change the "Workspaces and Move to workspaces" input in `$HOME/.config/hypr/keybindings.conf`.
 
-Be sure to also check if every config files have the right usernames and locations. Also run waypaper or use `waypaper --random` to use a random image in your `$HOME/Pictures/wallpapers/` directory.
+Be sure to also check if every config files have the right usernames and locations. Also run waypaper or use `waypaper --random` to use a random image in your `$HOME/Pictures/wallpapers/` directory. If you want to use VScode or VScodium, install the pywal theme extension (wal-brodered).
 
 To finish, GTK theme isnt included as I dont really use a file manager or anything that uses GTK and also i cant get gtk themes to use pywal for now. Sorry in advance, and please tell if you know the solution.
 
@@ -39,12 +39,13 @@ This config is inspired by the **Breakcore** style — raw, expressive, anti-sli
 
 ---
 
-## ⚙️ Included Files
+## ⚙️ Important Files
 
 - `.zshrc` — Main Zsh config
 - `.zshenv` — Environment variables
 - `.p10k.zsh` — Powerlevel10k theme config
-- `.gitignore` — To ignore folders like `.oh-my-zsh`
+- `.config/hypr/` - Main hyprland directory with scripts and configs
+- `.config/`
 
 ---
 
