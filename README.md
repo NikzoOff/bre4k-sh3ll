@@ -49,7 +49,6 @@ Note that every packages used have been tested and checked before installation.
 # Clone this repo
 git clone https://github.com/NikzoOff/bre4k-sh3ll
 
-# 2 install scripts are provided. One is for arch-based distro to install all the packages. The other one is just to clone the files to the required directories
 ```
 
 ---
