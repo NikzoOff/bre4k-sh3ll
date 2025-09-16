@@ -13,6 +13,8 @@ Go to `$HOME/.config/hypr/hyprland.conf` and scroll down to "INPUTS", change KB 
 
 Be sure to also check if every config files have the right usernames and locations. Also run waypaper or use `waypaper --random` to use a random image in your `$HOME/Pictures/wallpapers/` directory.
 
+To finish, GTK theme isnt included as I dont really use a file manager or anything that uses GTK and also i cant get gtk themes to use pywal for now. Sorry in advance, and please tell if you know the solution.
+
 ---
 
 It includes:
@@ -24,6 +26,8 @@ It includes:
 - A Custom [TUI Theme](https://github.com/adriankarlen/textfox) For Firefox
 - [PywalFox](https://addons.mozilla.org/en-US/firefox/addon/pywalfox/) (Might needed to install it yourself)
 - [Waybar](https://github.com/Alexays/Waybar) (Handmade config inspired by [DerAnsari](https://github.com/DerAnsari/hyprland-dots/tree/main/waybar))
+- [Rofi](https://github.com/davatorium/rofi) (Using pywal)
+- [Waypaper](https://github.com/anufrievroman/waypaper) (Wallpaper manager and pywal integration)
 
 ---
 
