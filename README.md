@@ -2,7 +2,7 @@
 By N1kz0.
 
 
-This is my personal Zsh configuration, designed with a **Breakcore-inspired aesthetic** and focused on minimal, terminal-based visuals.
+This is my personal [Hyprland](https://github.com/hyprwm/Hyprland) configuration, designed with a **Breakcore-inspired aesthetic** and focused on minimal, terminal-based visuals.
 
 It includes:
 
@@ -38,22 +38,26 @@ This config is inspired by the **Breakcore** style — raw, expressive, anti-sli
 > 🐧 This setup assumes you're on **Arch Linux** or an **Arch-based distro** (like EndeavourOS, Artix, etc.). Which is why the repo has 2 scripts. One script is to install all the packages and place them (Arch based). And another one will just place them.
 Or you can just clone the repo and do it yourself
 
-- Zsh
-- Oh My Zsh
-- Powerlevel10k
-- Nerd Font installed (like FiraCode Nerd Font)
-- pywal
-- Hyprland (Wayland compositor)
-- Waybar
-- Rofi
-- Firefox (with [TextFox] (https://github.com/adriankarlen/textfox) 
+Every packages and libraries needed are listed in the 'requirements.txt' file. If you have any questions or concerns about the **integrity or safety** of any packages, check the [AUR package list](https://aur.archlinux.org/packages) or from your distro, or check the github repos that are linked. 
+Note that every packages used have been tested and checked before installation.
 
 ---
 
-## 🚀 Quick Setup
+## 🚀 Installation
 
 ```bash
 # Clone this repo
 git clone https://github.com/NikzoOff/bre4k-sh3ll
 
 # 2 install scripts are provided. One is for arch-based distro to install all the packages. The other one is just to clone the files to the required directories
+
+---
+
+### Infos
+
+If you have any question, feel free to open a pull request or "Issues". 
+Im also active on discord and reddit. Dont be afraid to DM me.
+Discord: nikz0_
+Reddit: Nikz0_
+
+I might do other hyprland and maybe other TWM rices. Stay tuned.
