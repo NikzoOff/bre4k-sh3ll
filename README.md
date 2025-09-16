@@ -35,7 +35,8 @@ It includes:
 
 This config is inspired by the **Breakcore** style — raw, expressive, anti-slick.  
 > 🖼️ See screenshots and the video for a full preview of the vibe.  
-> *(Add links/images here if available)*
+
+![Config Hyprland](assets/pic1showcase.png)
 
 ---
 
