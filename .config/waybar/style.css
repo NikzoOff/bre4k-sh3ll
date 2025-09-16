@@ -1,0 +1,69 @@
+@import "/home/nikzo/.cache/wal/colors-waybar.css";
+
+/* General config */
+* {
+    font-family: "DaddyTimeMono Nerd Font Propo";
+    font-weight: bold;
+    font-size: 17px;
+}
+
+window#waybar {
+    background-color: rgba(0, 0, 0, 0);
+    border-bottom: 0;
+    color: @color1;
+}
+
+/* Modules config */
+.modules-left {
+    margin: 5px 0 0 10px;
+    padding: 0 0 0 7px;
+    background-color: @background;
+    border: 2px solid @color1;
+    border-radius: 0px;
+}
+.modules-center {
+    margin: 5px 0 0 0;
+    padding: 0 10px 0 10px;
+    background-color: @background;
+    border: 2px solid @color1;
+    border-radius: 0px;
+}
+.modules-right {
+    margin: 5px 10px 0 0;
+    padding: 0 10px 0 10px;
+    background-color: @background;
+    border: 2px solid @color1;
+    border-radius: 0px;
+}
+
+/* Per Module config*/
+#custom-openbracket,
+#custom-closebracket{
+    margin: 0 5px;
+}
+
+#workspaces button.active {
+    background-color: @color1;
+    border-radius: 0px;
+    color: @background;
+}
+
+#workspaces button {
+    color: @color1;
+}
+
+#custom-distro {
+    font-size: 20px;
+    font-weight: lighter;
+    padding-left: 2;
+}
+
+#custom-themeswitcher {
+    font-size: 20px;
+    font-weight: lighter;
+    padding-right: 0px;
+}
+
+#network {
+    padding-right: 0px;
+}

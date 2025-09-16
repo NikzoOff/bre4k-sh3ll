@@ -1,0 +1,158 @@
+[{
+    "height": 40,
+    "spacing": 5, 
+
+    "modules-left": [
+        "group/Utils",
+        "group/Workspaces",
+    ],
+    "modules-center": [
+        "group/Window"
+    ],
+    "modules-right": [
+        "group/Sys",
+        "group/Clock"
+    ],
+
+    /* Brackets and split */
+    "custom/openbracket": {
+        "format": "[",
+        "tooltip": false
+    },
+    "custom/closebracket": {
+        "format": "]",
+        "tooltip": false
+    },    
+    "custom/split": {
+      "format": " | ",
+      "tooltip": false
+    },
+
+    /* Groups */
+    "group/Window" : {
+        "orientation": "horizontal",
+        "modules": [
+            "custom/openbracket",
+            "hyprland/window",
+            "custom/closebracket"
+        ]
+    },
+    "group/Workspaces" : {
+        "orientation": "horizontal",
+        "modules": [
+            "custom/openbracket",
+            "hyprland/workspaces",
+            "custom/closebracket"
+        ]
+    },
+    "group/Clock" : {
+        "orientation": "horizontal",
+        "modules": [
+            "custom/openbracket",
+            "clock",
+            "custom/closebracket"
+        ]
+    },
+    "group/Utils" : {
+        "orientation": "horizontal",
+        "modules": [
+            "custom/openbracket",
+            "custom/distro",
+            "custom/split",
+            "custom/themeswitcher",
+            "custom/closebracket"
+        ]
+    },
+    "group/Sys" : {
+        "orientation": "horizontal",
+        "modules": [
+            "custom/openbracket",
+            "network",
+            "custom/split",
+            "battery",
+            "custom/closebracket"
+        ]
+    },
+    /*"group/BriVol" : {
+        "orientation": "horizontal",
+        "modules": [
+            "custom/openbracket",
+            "pulseaudio",
+            "custom/split",
+            "baacklight",
+            "custom/closebracket"
+        ]
+    },*/
+
+    /* Modules Config*/
+    "hyprland/workspaces" :{
+        "all-outputs": false,
+        "persistent-workspaces" : {
+            "HDMI-A-1": [5, 6, 7, 8],
+            "eDP-1": [1, 2, 3, 4],
+        },
+        "format": "{id}",
+        /* "format-icons": {
+            "1": "󰬺",
+            "2": "󰬻",
+            "3": "󰬼",
+            "4": "󰬽",
+            "5": "ᱷ",
+            "6": "ʬ",
+            "7": "ӿ",
+            "8": "ꝏ",
+            "default": "•"
+        }, */
+    },
+    "hyprland/window": {
+        "format": "{title}", 
+        "max-length": 40,
+        "min-length": 20,
+        "all-outputs": true
+    },
+    "clock": {
+        "format": "{:%T | %b %d }",
+        "interval": 1
+    },
+    "custom/distro" : {
+        "format": "☣",
+        "on-click": "swaync-client -t",
+        "on-click-right": "wlogout -C .config/wlogout/style.css -l .config/wlogout/config -b 4"
+    },
+    "custom/themeswitcher": {
+        "format": "󰸌",
+        "on-click": "waypaper",
+        "on-click-right": "waypaper --random"
+    },
+    "network": {
+    "format-wifi": "󰤢",
+    "format-ethernet": "󰈀 ",
+    "format-disconnected": "󰤠 ",
+    "interval": 5,
+    "tooltip-format": "{essid} ({signalStrength}%)",
+    "on-click": "kitty -e nmtui"
+    },
+    "battery": {
+        "interval": 10,
+        "states": {
+            "warning": 30,
+            "critical": 15
+        },
+        "format": "{icon}",
+        "format-charging": "󰂄",
+        "format-plugged": "",
+        "format-icons": [
+            "󰁺",
+            "󰁻",
+            "󰁼",
+            "󰁽",
+            "󰁾",
+            "󰁿",
+            "󰂀",
+            "󰂁",
+            "󰂂",
+            "󰁹"
+        ],
+        "tooltip-format": "BAT: {capacity}%"
+    },
+}]
