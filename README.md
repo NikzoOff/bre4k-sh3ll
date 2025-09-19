@@ -36,7 +36,7 @@ It includes:
 This config is inspired by the **Breakcore** style — raw, expressive, anti-slick.  
 > 🖼️ See screenshots and the video for a full preview of the vibe.  
 
-![Config Hyprland](assets/pic1showcase.png)
+![Config Hyprland](assets/2025-09-19 21-29-29.mkv)
 
 ---
 
@@ -46,6 +46,8 @@ This config is inspired by the **Breakcore** style — raw, expressive, anti-sli
 - `.zshenv` — Environment variables
 - `.p10k.zsh` — Powerlevel10k theme config
 - `.config/hypr/` - Main hyprland directory with scripts and configs
+- `.config/waybar/` - Main waybar config directory
+- `.config/Pictures/wallappers/` - Wallpaper directory to store wallpapers for Waypaper
 - `.config/`
 
 ---
