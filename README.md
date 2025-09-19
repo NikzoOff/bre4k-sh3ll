@@ -38,6 +38,8 @@ This config is inspired by the **Breakcore** style — raw, expressive, anti-sli
 
 ![Config Hyprland](assets/output.mp4)
 
+https://github.com/user-attachments/assets/efc64bcb-987d-4da1-b0b1-b10b49cc892f
+
 ---
 
 ## ⚙️ Important Files
