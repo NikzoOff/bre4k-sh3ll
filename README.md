@@ -7,7 +7,7 @@ This is my personal [Hyprland](https://github.com/hyprwm/Hyprland) configuration
 ---
 
 ### **IMPORTANT**
-Before installing, make sure to edit the config as i use the french keyboard layout.
+Before installing, make sure to edit the config as i use the french keyboard layout. And after installing be sure to reboot or re-launch a hyprland session. (MOD+m and then hyprland)
 
 Go to `$HOME/.config/hypr/hyprland.conf` and scroll down to "INPUTS", change KB layout to your desired one. You will also need to change the "Workspaces and Move to workspaces" input in `$HOME/.config/hypr/keybindings.conf`.
 
